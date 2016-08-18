@@ -21,8 +21,8 @@ $ git clone https://github.com/jlord/javascript-for-cats-electron
 $ cd javascript-for-cats-electron
 # Install dependencies
 $ npm install
-# Run it with electron
-$ electron .
+# Start the app
+$ npm start
 ```
 
 **TODO** Package it up. It's late :moon: tonight, though.
