@@ -4,6 +4,7 @@
   "description": "JavaScript for Cats on your desktop in Electron.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Max Ogden / Jessica Lord",
