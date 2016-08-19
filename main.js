@@ -8,7 +8,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({fullscreen: true})
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 
-  mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools({mode: 'bottom'})
 
   mainWindow.on('closed', function () {
     mainWindow = null
