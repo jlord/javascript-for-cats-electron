@@ -1,11 +1,15 @@
 {
   "name": "javascript-for-cats-electron",
   "version": "1.0.0",
+  "productName": "JavaScript for Cats",
   "description": "JavaScript for Cats on your desktop in Electron.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack-mac": "electron-packager . JSforCats --platform=darwin --arch=x64   --icon=images/jsforcats.icns --overwrite --ignore=/out/ --prune=true --out=out",
+    "pack-lin": "electron-packager . JSforCats --platform=linux  --arch=x64   --icon=images/jsforcats.png  --overwrite --ignore=/out/ --prune=true --out=out",
+    "pack-win": "electron-packager . JSforCats --platform=win32  --arch=ia32  --icon=images/jsforcats.ico  --overwrite --ignore=/out/ --prune=true --out=out "
   },
   "author": "Max Ogden / Jessica Lord",
   "license": "BSD",
