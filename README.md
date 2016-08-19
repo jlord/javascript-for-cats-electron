@@ -2,7 +2,7 @@
 
 This is a fork of [@maxogden](https://github.com/maxogden)'s :cat2: [JS for Cats](http://github.com/maxogden/javascript-for-cats) :computer: project but with all the content in [Electron](http://electron.atom.io). It looks exactly the same :laughing:.
 
-![screen shot 2016-08-17 at 9 56 12 pm](https://cloud.githubusercontent.com/assets/1305617/17762441/8b0245b6-64c5-11e6-812a-f8e2946a34e1.png)
+![screenshot of the app running](https://cloud.githubusercontent.com/assets/1305617/17824182/5a6e8fda-6615-11e6-9ebd-68015a62d89c.png)
 
 ## Why?
 
