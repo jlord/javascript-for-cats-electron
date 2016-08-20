@@ -28,3 +28,13 @@ $ npm install
 # Start the app
 $ npm start
 ```
+
+## How?
+
+If you're curious about the process: I cloned the original [JS for Cats](http://github.com/maxogden/javascript-for-cats) repository and moved the relevant files to a new folder named `javascript-for-cats-electron`. I brought over the directories `images`, `javascripts` and `stylesheets`.
+
+I removed `javascripts/marked.js` because I'd just use that library as a node dependency.
+
+I ran `git init` to make my new folder a Git repository and then ran `npm init` and created a `package.json` for the project. I added the dependencies I'd need: `electron` for running it locally, `marked` for generating the HTML, and `electron-packager` for packing it up to download on Mac, Windows and Linux.
+
+I copied over `render.js` from the original and	
