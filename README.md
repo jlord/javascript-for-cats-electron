@@ -10,9 +10,13 @@ Because I realized it could be done really fast. And isn't it funny that the coo
 
 :ok_woman: Do what I want!
 
+## Download it
+
+You can find the Mac, Windows and Linux versions for download over on the [release pages](https://github.com/jlord/javascript-for-cats-electron/releases) :pineapple: :cat:
+
 ## Build it
 
-You'll need [Node.js](http://nodejs.org) installed on your computer and to run these commands in your terminal app:
+You'll need :computer: [Node.js](http://nodejs.org) installed on your computer and to run these commands in your terminal app:
 
 ```bash
 # Clone this repository
@@ -24,5 +28,3 @@ $ npm install
 # Start the app
 $ npm start
 ```
-
-**TODO** Package it up. It's late :moon: tonight, though.
